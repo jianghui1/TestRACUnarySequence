@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FFA9013EC1533F7AB13FA70 /* libPods-TestRACUnarySequenceTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E3DC8FB10CCE344F939DD47 /* libPods-TestRACUnarySequenceTests.a */; };
 		5A14DF132125787C006F40E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A14DF122125787C006F40E8 /* AppDelegate.m */; };
 		5A14DF162125787C006F40E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A14DF152125787C006F40E8 /* ViewController.m */; };
 		5A14DF192125787C006F40E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A14DF172125787C006F40E8 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		458576754B0F92EAFB59CC4E /* Pods-TestRACUnarySequenceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRACUnarySequenceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestRACUnarySequenceTests/Pods-TestRACUnarySequenceTests.release.xcconfig"; sourceTree = "<group>"; };
 		5A14DF0E2125787C006F40E8 /* TestRACUnarySequence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestRACUnarySequence.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A14DF112125787C006F40E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5A14DF122125787C006F40E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +53,9 @@
 		5A14DF312125787D006F40E8 /* TestRACUnarySequenceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestRACUnarySequenceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A14DF352125787D006F40E8 /* TestRACUnarySequenceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestRACUnarySequenceUITests.m; sourceTree = "<group>"; };
 		5A14DF372125787D006F40E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E3DC8FB10CCE344F939DD47 /* libPods-TestRACUnarySequenceTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestRACUnarySequenceTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B92D11C071114045AE3AB24 /* Pods-TestRACUnarySequenceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRACUnarySequenceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestRACUnarySequenceTests/Pods-TestRACUnarySequenceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA933384A5C563AE025628B3 /* libPods-TestRACUnarySequence.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestRACUnarySequence.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FFA9013EC1533F7AB13FA70 /* libPods-TestRACUnarySequenceTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +91,8 @@
 				5A14DF292125787D006F40E8 /* TestRACUnarySequenceTests */,
 				5A14DF342125787D006F40E8 /* TestRACUnarySequenceUITests */,
 				5A14DF0F2125787C006F40E8 /* Products */,
+				7AFC61B43C9C33EE2E6A8AE8 /* Pods */,
+				CF240C3FA0A5AF60B48E1D11 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +140,24 @@
 			path = TestRACUnarySequenceUITests;
 			sourceTree = "<group>";
 		};
+		7AFC61B43C9C33EE2E6A8AE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B92D11C071114045AE3AB24 /* Pods-TestRACUnarySequenceTests.debug.xcconfig */,
+				458576754B0F92EAFB59CC4E /* Pods-TestRACUnarySequenceTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF240C3FA0A5AF60B48E1D11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA933384A5C563AE025628B3 /* libPods-TestRACUnarySequence.a */,
+				6E3DC8FB10CCE344F939DD47 /* libPods-TestRACUnarySequenceTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -156,6 +182,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A14DF3D2125787D006F40E8 /* Build configuration list for PBXNativeTarget "TestRACUnarySequenceTests" */;
 			buildPhases = (
+				3333E5C36EAC0BFB7062EF1B /* [CP] Check Pods Manifest.lock */,
 				5A14DF222125787C006F40E8 /* Sources */,
 				5A14DF232125787C006F40E8 /* Frameworks */,
 				5A14DF242125787C006F40E8 /* Resources */,
@@ -256,6 +283,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3333E5C36EAC0BFB7062EF1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestRACUnarySequenceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5A14DF0A2125787C006F40E8 /* Sources */ = {
@@ -463,6 +511,7 @@
 		};
 		5A14DF3E2125787D006F40E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B92D11C071114045AE3AB24 /* Pods-TestRACUnarySequenceTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -481,6 +530,7 @@
 		};
 		5A14DF3F2125787D006F40E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 458576754B0F92EAFB59CC4E /* Pods-TestRACUnarySequenceTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
